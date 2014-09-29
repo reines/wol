@@ -10,7 +10,7 @@
 
     <groupId>com.jamierf</groupId>
     <artifactId>wol</artifactId>
-    <version>0.1-SNAPSHOT</version>
+    <version>0.1</version>
     <packaging>jar</packaging>
 
     <name>WOL</name>
