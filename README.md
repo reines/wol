@@ -8,12 +8,18 @@ A simple Wake-On-LAN implementation.
 
 WOL can be found in maven central.
 
-    <dependency>
-        <groupId>com.jamierf</groupId>
-        <artifactId>wol</artifactId>
-        <version>...</version>
-    </dependency>
+## Installation
 
-### Usage
+```xml
+<dependency>
+    <groupId>com.jamierf</groupId>
+    <artifactId>wol</artifactId>
+    <version>...</version>
+</dependency>
+```
 
-    WakeOnLan.wake("b8:f6:b1:14:6a:b7");
+## Usage
+
+```java
+WakeOnLan.wake("b8:f6:b1:14:6a:b7");
+```
