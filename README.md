@@ -23,3 +23,7 @@ WOL can be found in maven central.
 ```java
 WakeOnLan.wake("b8:f6:b1:14:6a:b7");
 ```
+
+## License
+
+Released under the [Apache 2.0 License](LICENSE).
