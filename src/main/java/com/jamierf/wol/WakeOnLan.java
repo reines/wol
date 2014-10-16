@@ -10,7 +10,7 @@ import java.net.InetSocketAddress;
 import java.net.SocketAddress;
 import java.nio.ByteBuffer;
 
-public final class WakeOnLan {
+public class WakeOnLan {
 
     private static final String BROADCAST_ADDRESS = "255.255.255.255";
     public static final int PORT = 9;
@@ -62,6 +62,4 @@ public final class WakeOnLan {
 
         return packet.array();
     }
-
-    private WakeOnLan() {}
 }
